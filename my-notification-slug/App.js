@@ -48,7 +48,7 @@ export default function App() {
         <Text>Data: {notification && JSON.stringify(notification.request.content.data)}</Text>
       </View>
       <Button
-        title="Press to schedule a notification"
+        title="   Send notification   "
         onPress={async () => {
           await schedulePushNotification();
         }}
